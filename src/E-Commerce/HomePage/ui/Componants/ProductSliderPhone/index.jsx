@@ -32,7 +32,7 @@ export default function ProductSliderPhone({ products }) {
                 </div>
 
                 <LazyLoadImage
-                  src
+                  src ={el.img}
                   className={styles.productImage}
                   alt={el.product_name}
                   effect="blur"
